@@ -10,19 +10,16 @@ Aplicar transformaciones a un archivo JSON.
 
 ## Objetivos
 
-- Traducir todos los textos al ingles.
-
-- Reemplazar todos los IDs numericos por cadenas de caracteres únicas de 50 caracteres.
-   **Nota: los mismos IDs deben mantener la misma cadena si se repiten en el archivo original.**
-
-- Clasificación dentro del ID:
-   Los primeros 20 caracteres del nuevo ID deben indicar la categoría del texto asociado, según las siguientes reglas:
-      - Si el texto corresponde a una consulta de datos: `CONSULTA_DATOS`
-      - Si corresponde a una indicación o instrucción: `INDICACION`
-      - Si corresponde a una respuesta de usuario: `RESPUESTA_USUARIO`
-      - Si no encaja en ninguna de las anteriores: `OTROS`
-
-- Validar el resultado con la herramienta: https://jsonformatter.curiousconcept.com
+1. Traducir todos los textos al ingles.
+2. Reemplazar todos los IDs numericos por cadenas de caracteres únicas de 50 caracteres.
+**Nota: los mismos IDs deben mantener la misma cadena si se repiten en el archivo original.**
+3.Clasificación dentro del ID:
+Los primeros 20 caracteres del nuevo ID deben indicar la categoría del texto asociado, según las siguientes reglas:
+     - Si el texto corresponde a una consulta de datos: `CONSULTA_DATOS`
+     - Si corresponde a una indicación o instrucción: `INDICACION`
+     - Si corresponde a una respuesta de usuario: `RESPUESTA_USUARIO`
+     - Si no encaja en ninguna de las anteriores: `OTROS`
+4. Validar el resultado con la herramienta: https://jsonformatter.curiousconcept.com
 
 ---------------
 
