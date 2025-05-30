@@ -17,10 +17,10 @@ Aplicar transformaciones a un archivo JSON.
 
 - Clasificación dentro del ID:
    Los primeros 20 caracteres del nuevo ID deben indicar la categoría del texto asociado, según las siguientes reglas:
-      . Si el texto corresponde a una consulta de datos: `CONSULTA_DATOS`
-      . Si corresponde a una indicación o instrucción: `INDICACION`
-      · Si corresponde a una respuesta de usuario: `RESPUESTA_USUARIO`
-      . Si no encaja en ninguna de las anteriores: `OTROS`
+      - Si el texto corresponde a una consulta de datos: `CONSULTA_DATOS`
+      - Si corresponde a una indicación o instrucción: `INDICACION`
+      - Si corresponde a una respuesta de usuario: `RESPUESTA_USUARIO`
+      - Si no encaja en ninguna de las anteriores: `OTROS`
 
 - Validar el resultado con la herramienta: https://jsonformatter.curiousconcept.com
 
